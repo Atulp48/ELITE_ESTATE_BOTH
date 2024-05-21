@@ -1,14 +1,28 @@
-import React from 'react'
+import React from "react";
 
 export default function About() {
   return (
-    <div className='py-20 px-4 max-w-6xl mx-auto'>
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Sahand Estate</h1>
-      <p className='mb-4 text-slate-700'>Sahand Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
-      <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
+    <div className="py-20 px-4 max-w-6xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4 text-slate-800">
+        About Property Dealing Site
+      </h1>
+      <p className="mb-4 text-slate-700">
+        At Property dealing, our mission is to simplify the real estate process
+        and make it accessible for everyone. We aim to deliver personalized
+        solutions tailored to your unique needs and aspirations, ensuring a
+        smooth and successful property journey.
       </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
+      <p className="mb-4 text-slate-700">
+        We envision a future where real estate transactions are seamless,
+        transparent, and efficient. We strive to be the leading platform for
+        property dealings, recognized for our innovation, integrity, and
+        exceptional customer service.
+      </p>
+      <p className="mb-4 text-slate-700">
+        Our team comprises seasoned real estate professionals with extensive
+        knowledge of the market. and We have successfully facilitated numerous
+        transactions, earning the trust and loyalty of our clients.
+      </p>
     </div>
-  )
+  );
 }
